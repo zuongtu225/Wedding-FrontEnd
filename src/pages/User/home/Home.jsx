@@ -21,6 +21,7 @@ function Home() {
              <p>20.06.2024</p>
         </div>
     </section>
+    
     <div className="content">
       <div className="content__contentTop">
         <p>"Hôn nhân không phải là một điểm đến mà là một cuộc hành trình, nơi mà hai người cùng nhau xây dựng và phát triển."</p>
