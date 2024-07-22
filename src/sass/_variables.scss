@@ -1,0 +1,34 @@
+$res-320: 'only screen and (min-width: 320px) and (max-width: 480px)';
+$res-481: 'only screen and (min-width: 481px) and (max-width: 1200px)';
+$res-1200: 'only screen and (min-width: 1200px) and (max-width: 2000px)';
+
+@mixin responsive-mobile {
+    @media #{$res-320} {
+      @content;
+    }
+  }
+  @mixin responsive-tablet {
+    @media #{$res-481} {
+      @content;
+    }
+  }
+  @mixin responsive-desktop {
+    @media #{$res-1200} {
+      @content;
+    }
+  }
+
+$font-signature: "Great Vibes";
+$font-main: "Inter";
+$font-title: 24px; 
+
+
+$text-color: #4d4d4d;
+$primary-color: #1479f4;
+$white-color: #fdfdfb;
+$heading-color: #1f1b1c;
+$black: black;
+$gray-color: #c8c8c8;
+$lightBlue-color: #d2e1f0;
+
+
